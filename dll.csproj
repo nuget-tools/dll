@@ -1,0 +1,35 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <Description>Dotnet CLI tool allowing you to run C# applets.</Description>
+    <Version>2024.0122.1558.24</Version>
+    <TargetFramework>net6.0</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <OutputType>Exe</OutputType>
+    <AssemblyName>dll</AssemblyName>
+    <IsPackable>true</IsPackable>
+    <PackageId>dll</PackageId>
+    <PackAsTool>true</PackAsTool>
+    <PreserveCompilationContext>false</PreserveCompilationContext>
+    <Authors>javacommons</Authors>
+    <Company>JavaCommons Technologies</Company>
+    <Copyright>Copyright © 2024-present JavaCommons Technologies</Copyright>
+    <PackageProjectUrl>https://github.com/nuget-tools/dll</PackageProjectUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <RepositoryType>git</RepositoryType>
+    <RepositoryUrl>https://github.com/nuget-tools/dll.git</RepositoryUrl>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <Nullable>disable</Nullable>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <Prefer32Bit>false</Prefer32Bit>
+    <ApplicationIcon>tarantula.ico</ApplicationIcon>
+    <RootNamespace>Dll.Exe</RootNamespace>
+    <DefineConstants>$(DefineConstants);NETCORE;NET6_0</DefineConstants>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+</Project>
